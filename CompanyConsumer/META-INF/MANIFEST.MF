@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CompanySubcriber
+Bundle-SymbolicName: companySubcriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.mtit.companyConsumer.CompanyActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-20
+Automatic-Module-Name: companySubcriber
+Export-Package: com.mtit.companyConsumer
+Import-Package: com.mtit.companyProducer,
+ com.mtit.jobseekerproducer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JobSeekerConsumer
+Bundle-SymbolicName: JobSeekerConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.mtit.jobseekerconsumer.JobSeekerConsumerActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-20
+Automatic-Module-Name: JobSeekerConsumer
+Export-Package: com.mtit.jobseekerconsumer
+Import-Package: com.mtit.companyProducer,
+ com.mtit.jobseekerproducer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

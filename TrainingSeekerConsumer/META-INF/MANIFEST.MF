@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TrainingSeeker
+Bundle-SymbolicName: TrainingSeeker
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.mtit.osgi.trainingseekerConsumer.TrainingSeekerActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: TrainingSeeker
+Export-Package: com.mtit.osgi.trainingseekerConsumer
+Import-Package: com.mtit.JobTrainerProducer,
+ com.mtit.osgi.trainingProducer,
+ org.osgi.framework;version="1.3.0"
